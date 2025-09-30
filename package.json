@@ -1,0 +1,25 @@
+{
+  "name": "backend-challenge",
+  "version": "1.0.0",
+  "description": "URL shortener backend challenge",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "server": "node dist/server.js",
+    "client": "node dist/client.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^2.2.0",
+    "express": "^4.21.2",
+    "uuid": "^13.0.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^9.0.7",
+    "@types/ws": "^8.5.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
